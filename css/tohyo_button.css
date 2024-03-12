@@ -1,0 +1,26 @@
+#gradient{
+	align-items: center;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.item {
+  padding: 0px;
+  width: 33.3%;
+  background-color: #fff;
+}
+
+@media not all and (min-width: 1194px) {
+  .item {
+    width: 100%;
+  }
+
+  .item:not(:last-child) {
+    margin-bottom: 0px;
+  }
+}

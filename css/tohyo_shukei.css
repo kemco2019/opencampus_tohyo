@@ -1,0 +1,78 @@
+.shukei_title{
+    width: 70%;
+    height: auto;
+}
+body{
+    background-image: url(../images/bg_pattern02.png);
+    background-size: cover;
+}
+.background{
+    width: 100%;
+    height: auto;
+}
+.vote_container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.vote_container .piechart{
+    text-align: center;
+    width: 100%;
+}
+.vote_container .piechart img{
+    margin: auto;
+    width: 90%;
+    padding: 0px 600px 100px 0px;
+}
+.vote_container .ranking{
+    margin: auto;
+    width: 100%;
+    height: auto;
+    padding: 0.1% 0px 10px 100px;
+}
+.rank{
+    display: flex;
+    align-items: center;
+}
+.rank img{
+    width: 20%;
+}
+.rank .dept{
+    width: 50%;
+	font-family: "murecho", sans-serif;
+	font-weight: 800;
+	font-style: normal;
+    font-size: 44px;
+    letter-spacing: 0.22em;
+}
+
+.rank .num{
+    width: 30%;
+    text-align: left;
+    margin: auto;
+    padding: auto;
+	font-family: "vdl-linegrpop-shadow", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+    font-size: 55px;
+}
+
+.modal{
+    position: fixed;
+	margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+	text-align: center;
+	z-index: 2000;
+}
+
+.popupimg{
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%,100%);
+    opacity: 0;
+}
