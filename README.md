@@ -1,4 +1,6 @@
 # 志望学部投票（2023オープンキャンパス）
+参考URL: https://studio.kemco.keio.ac.jp/opencampus/tohyo/tohyo_shukei.php
+
 # 概要
 - tohyo_shukei.php: 集計用
 - tohyo_button.php: 投票用
@@ -7,7 +9,7 @@
 
 # 使用方法
 ## 投票方法
-浮世絵の投票と同じ
+浮世絵の投票と同様
 
 リセットするときは data_test.csvを全部1にする。0にすると多分壊れるのでダメ。
 
